@@ -24,6 +24,7 @@ export default function HomePage() {
         />
 
         {/* Comment Example */}
+        
 
         <Comment
           userImagePath="/profileImages/lisa.jpg"

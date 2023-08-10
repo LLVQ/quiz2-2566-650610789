@@ -14,6 +14,7 @@ export const Reply = (props) => {
           style={{ backgroundColor: "#E5E7EB" }}
         >
           <span className="fw-semibold">{props.username}</span>
+          
           <br />
           <span>{props.replyText}</span>
           <div className="d-flex align-items-center gap-1">

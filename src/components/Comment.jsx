@@ -23,6 +23,7 @@ export const Comment = (props) => {
             <img src={props.likeNum > 0 ? "/like.svg" : ""} width={20}></img>
             <span className="text-muted">
               {props.likeNum > 0 ? props.likeNum : undefined}
+              
             </span>
           </div>
         </div>

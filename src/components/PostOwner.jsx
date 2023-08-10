@@ -14,6 +14,7 @@ export const PostOwner = (props) => {
         </div>
 
         <span>{props.text}</span>
+        
 
         <div className="d-flex align-items-center gap-1">
           <img src="/like.svg" width={20}></img>
