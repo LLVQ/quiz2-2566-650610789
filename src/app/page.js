@@ -44,6 +44,7 @@ export default function HomePage() {
         {/* map-loop render Comment component here */}
         {comments.map((x) => (
           <Comment
+            key = {x.username}
             username={x.username}
             commentText={x.commentText}
             likeNum={x.likeNum}
